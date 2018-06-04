@@ -43,7 +43,6 @@ y3 = r3.predict(6.5)
 y4 = r4.predict(6.5)
 y5 = r5.predict(6.5)
 
-
 # Visualising the Regression results (for higher resolution and smoother curve)
 X_grid = np.arange(min(X), max(X), 0.1)
 X_grid = X_grid.reshape((len(X_grid), 1))
