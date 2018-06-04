@@ -25,10 +25,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, rando
 # Fitting the Regression Model to the dataset
 from sklearn.ensemble import RandomForestRegressor
 r1 = RandomForestRegressor(n_estimators=10, random_state = 0)
-r2 = RandomForestRegressor(n_estimators=20, random_state = 0)
-r3 = RandomForestRegressor(n_estimators=50, random_state = 0)
-r4 = RandomForestRegressor(n_estimators=100, random_state = 0)
-r5 = RandomForestRegressor(n_estimators=1000, random_state = 0)
+r2 = RandomForestRegressor(n_estimators=100, random_state = 0)
+r3 = RandomForestRegressor(n_estimators=278, random_state = 0)
+r4 = RandomForestRegressor(n_estimators=1000, random_state = 0)
+r5 = RandomForestRegressor(n_estimators=2000, random_state = 0)
 
 r1.fit(X,y)
 r2.fit(X,y)
